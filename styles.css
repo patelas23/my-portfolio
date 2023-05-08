@@ -2,6 +2,7 @@
 * {
     text-align: center;
     justify-content: center;
+    font-size: 1em;
 }
 /* Occupy all available screen space */
 html, body {
@@ -20,19 +21,23 @@ div.flex-container {
     align-items: center;
     flex-direction: column;
 }
+div.contact-info {
+    background-color: bisque;
+}
 a {
     text-decoration: wavy;
 }
 
-/* Create two columns split between 1/3 and 2/3 of the screen, respectively */
+/* Create two columns split for vertical navigation bar */
 .nav-column {
     float: left;
-    width: 33.3%;
+    width: 15%;
     height: 100%;
+    font-size: 1em;
 }
 
 .body-column {
     float: left;
-    width: 66.6%;
+    width: 85%;
     height: 100%;
 }
